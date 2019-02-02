@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+  
+<mapper namespace="top.jacktu.page.mapper.MainMapper">
+	<!-- 用户留言 -->
+	<insert id="saveMsg" parameterType="top.jacktu.page.bean.UserMsg">
+		insert into t_user_msg(
+			leave_name,leave_msg
+		)values(
+			#{leave_name},#{leave_msg}
+		)
+	</insert>
+	<insert id="saveVisitor" parameterType="top.jacktu.page.bean.Visitor">
+		insert into t_visitor_info(
+			user_agent,os_name,os_version,
+			os_arch,protocol,encode,
+			remoteAddr,ip_location,others
+		)values(
+			#{user_agent},#{os_name},#{os_version},
+			#{os_arch},#{protocol},#{encode},
+			#{remoteAddr},#{ip_location},#{others}
+		)
+	</insert>
+</mapper>

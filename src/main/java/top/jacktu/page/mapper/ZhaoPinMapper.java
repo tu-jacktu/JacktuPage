@@ -1,0 +1,1 @@
+package top.jacktu.page.mapper;import java.util.List;import top.jacktu.page.bean.Job;import top.jacktu.page.bean.SouJob;public interface ZhaoPinMapper {	List<Job> findJobs(SouJob var1);	Job findOne(Integer var1);}

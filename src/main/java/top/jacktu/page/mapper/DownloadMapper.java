@@ -1,0 +1,1 @@
+package top.jacktu.page.mapper;import java.util.List;import top.jacktu.page.bean.Jfile;public interface DownloadMapper {	List<Jfile> findJfiles();	void saveJfile(Jfile var1);}

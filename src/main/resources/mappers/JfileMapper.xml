@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="top.jacktu.page.mapper.DownloadMapper">
+	<!-- 查询指定职位页面 -->
+	<select id="findJfiles"	resultType="top.jacktu.page.bean.Jfile">
+		select * from jfile
+	</select>
+	<insert id="saveJfile" parameterType="top.jacktu.page.bean.Jfile">
+		insert into jfile(
+			uploader,name,localname,size,annotation,path,link
+		)values(
+			#{uploader},#{name},#{localname},#{size},#{annotation},#{path},#{link}
+		)
+	</insert>
+</mapper>
