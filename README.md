@@ -46,3 +46,51 @@
 ![img](readme/2.PNG)
 ### 资源下载页面
 ![img](readme/3.PNG)
+
+## 项目目录结构
+```
+│  pom.xml		maven配置
+│  README.md                                         
+├─readme
+│      data.sql	数据库文件,需要导入 MySQL(建议5.7及其以上)
+├─src
+│  └─main
+│      ├─java
+│      │  └─top
+│      │      └─jacktu
+│      │          └─page
+│      │              ├─bean    	Java bean
+│      │              ├─controller	 控制器所在包
+│      │              ├─interceptor  拦截器,项目中没有用到
+│      │              ├─mapper		持久层
+│      │              ├─service		业务层
+│      │              └─util		工具类
+│      ├─resources				各种配置文件
+│      │  │  application-aop.xml
+│      │  │  application-dao.xml
+│      │  │  application-service.xml
+│      │  │  db.properties			数据库配置文件
+│      │  │  spring-mvc.xml
+│      │  │  
+│      │  ├─ipconf
+│      │  │      ip2region.db		数据文件(根据ip找到对应归属地)
+│      │  │      
+│      │  ├─mappers					mybatis 配置文件 
+│      │          
+│      └─webapp						前端文件
+│          │  a.mp3
+│          │  index.jsp				主页 页面
+│          ├─audio					这里里面暂时没有用到,可以删
+│          ├─css				
+│          ├─download
+│          │      index.jsp		下载页 页面  
+│          ├─fonts   
+│          ├─icons				网页图标
+│          ├─images				照片文件
+│          ├─js
+│          ├─vue-todolist
+│          │  │  index.html		vue的一个小案例
+│          └─WEB-INF
+│                  web.xml		servlet配置
+
+```
