@@ -1,1 +1,1 @@
-package top.jacktu.page.mapper;import java.util.List;import top.jacktu.page.bean.Job;import top.jacktu.page.bean.SouJob;public interface ZhaoPinMapper {	List<Job> findJobs(SouJob var1);	Job findOne(Integer var1);}
+package top.jacktu.page.mapper;import java.util.List;import top.jacktu.page.bean.Job;import top.jacktu.page.bean.SouJob;/** * 返回招聘信息,为 智联招聘爬虫所做接口 * 对本项目无作用,可以删除 * */public interface ZhaoPinMapper {	List<Job> findJobs(SouJob var1);	Job findOne(Integer var1);}

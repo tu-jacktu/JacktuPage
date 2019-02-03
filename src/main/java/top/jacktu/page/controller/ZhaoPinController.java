@@ -12,7 +12,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import top.jacktu.page.bean.Job;
 import top.jacktu.page.bean.SouJob;
 import top.jacktu.page.service.ZhaoPinService;
-
+/**
+ * 返回招聘信息,为 智联招聘爬虫所做接口
+ * 对本项目无作用,可以删除
+ * @author jacktu
+ */
 @Controller
 @RequestMapping({"/zhaopin"})
 @CrossOrigin(origins = {"http://localhost:9090"}, maxAge = 3600L)

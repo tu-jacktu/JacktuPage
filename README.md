@@ -33,7 +33,10 @@
 - windows 10
 
 ## 项目启动
->这是一个maven项目,导入到 eclipse 或者 idea 中使用tomcat(建议 tomcat 8以上)启动 然后输入项目路径就可以看到效果
+- 在 JacktuPage\src\main\resources\db.properties 中修改数据库连接信息
+- 把 JacktuPage\readme\data.sql 导入到对应库中
+>这是一个maven项目,导入到 eclipse 或者 idea 中使用tomcat(建议 tomcat 8以上)启动
+<br/>然后输入项目路径访问
 
 ## 截图
 ### 页面顶部

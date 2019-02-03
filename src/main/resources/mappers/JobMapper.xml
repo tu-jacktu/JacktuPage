@@ -2,7 +2,7 @@
 <!DOCTYPE mapper  
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
+<!-- 返回招聘信息,为 智联招聘爬虫所做接口 -->
 <mapper namespace="top.jacktu.page.mapper.ZhaoPinMapper">
 	<!-- 查询指定职位页面 -->
 	<select id="findJobs"
