@@ -1,4 +1,4 @@
-# JacktuPag / Jacktu's 个人主页
+# JacktuPage / Jacktu's 个人主页
 
 ### [项目在线浏览](http://jacktu.top/jacktu)
 
