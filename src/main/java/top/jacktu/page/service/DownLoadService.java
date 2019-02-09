@@ -47,10 +47,8 @@ public class DownLoadService {
 				String realPath = request.getServletContext().getRealPath("./");
 				String path = (new File(realPath)).getParent() + "/files";
 				File dir = new File(path);
-				if (!dir.exists()) {
+				if (!dir.exists())
 					dir.mkdir();
-				}
-
 				File f = new File(dir, filename);
 				file.transferTo(f);
 				jf.setPath(f.getPath());
