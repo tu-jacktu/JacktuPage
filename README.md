@@ -1,6 +1,6 @@
 # JacktuPage / Jacktu's 个人主页
 
-### [项目在线浏览](http://jacktu.top/jacktu) | [GitHub地址](https://github.com/tu-jacktu/JacktuPage)
+### [项目在线浏览](http://jacktu.top/JacktuPage) | [GitHub地址](https://github.com/tu-jacktu/JacktuPage)
 
 ## 前言
 >搭了一个服务器,想放点自己的东西上去.于是就写了这个个人主页项目
